@@ -1,5 +1,5 @@
 {% set name = "atomium" %}
-{% set version = "1.0.3" %}
+{% set version = "1.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://github.com/samirelanduk/atomium/archive/v{{ version }}.tar.gz
-  sha256: c89a1de5bedd754411e01a174e43901629a57d95bfb262eb1563da703fee0c1b
+  sha256: 4c1858f3463434221944d47f56d971f5998a20fe985278e374a32bcf2420dc9f
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -37,7 +37,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Python molecular modeller (with .pdb/.cif/.mmtf parsing and production)'
+  summary: Python molecular modeller (with .pdb/.cif/.mmtf parsing and production)
 
   description: |
     atomium is a molecular modeller and file parser, capable of reading
