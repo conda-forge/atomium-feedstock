@@ -5,9 +5,13 @@ Home: https://github.com/samirelanduk/atomium
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/atomium-feedstock/blob/master/LICENSE.txt)
 
 Summary: Python molecular modeller (with .pdb/.cif/.mmtf parsing and production)
+
+Development: https://github.com/samirelanduk/atomium
+
+Documentation: https://atomium.samireland.com/
 
 atomium is a molecular modeller and file parser, capable of reading
 from and writing to .pdb, .cif and .mmtf files.
