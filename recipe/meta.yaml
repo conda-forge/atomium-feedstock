@@ -1,5 +1,5 @@
 {% set name = "atomium" %}
-{% set version = "1.0.4" %}
+{% set version = "1.0.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/samirelanduk/atomium/archive/v{{ version }}.tar.gz
-  sha256: 4c1858f3463434221944d47f56d971f5998a20fe985278e374a32bcf2420dc9f
+  sha256: c3e1254b6e3f741a450acc31d3ae402f72a55b9acfc55a45df6216bfebfc5c1e
 
 build:
   noarch: python
@@ -24,7 +24,6 @@ requirements:
     - requests
     - msgpack-python
     - paramiko
-    - tqdm
     - rmsd
     - valerius
 
