@@ -24,7 +24,6 @@ requirements:
     - requests
     - msgpack-python
     - paramiko
-    - tqdm
     - rmsd
     - valerius
 
