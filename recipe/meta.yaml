@@ -1,5 +1,5 @@
 {% set name = "atomium" %}
-{% set version = "1.0.9" %}
+{% set version = "1.0.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/samirelanduk/atomium/archive/v{{ version }}.tar.gz
-  sha256: c3e1254b6e3f741a450acc31d3ae402f72a55b9acfc55a45df6216bfebfc5c1e
+  sha256: 88451e977ea12ba1539f29d8da0e670e0c966fa0338b2a9a2ef137a112e68ff9
 
 build:
   noarch: python
